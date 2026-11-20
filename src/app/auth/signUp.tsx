@@ -1,5 +1,5 @@
 import { Link } from 'expo-router'
-import { View, Text } from 'react-native'
+import { Text } from 'react-native'
 import Screen from '@/components/screen'
 
 

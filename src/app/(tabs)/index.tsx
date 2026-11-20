@@ -1,4 +1,3 @@
-import { Link } from "expo-router";
 import { FlatList, Image, Text, View } from "react-native";
 import Screen from "@/components/screen";
 import { images } from "../../../constants/image";
@@ -14,7 +13,7 @@ import { useState } from "react";
 
 export default function Index() {
 
-  const [expandedSubscription , setExpandedSubscription] = useState<String | null>(null)
+  const [expandedSubscription , setExpandedSubscription] = useState<string | null>(null)
 
   return (
     <Screen edges={["top", "bottom"]} className="flex-1 p-5 bg-background">
@@ -57,7 +56,7 @@ export default function Index() {
               ListEmptyComponent={<Text className="home-empty-state">No Upcoming Renewable yet</Text>}/> 
             </View>
 
-            <ListHeading title="All Subscription" /> 
+ w           <ListHeading title="All Subscription" /> 
         </>
 
         )}
