@@ -1,9 +1,14 @@
 import { View, Image , Text } from 'react-native'
-import React from 'react'
 import { formatCurrency } from '@/lib/utils'
 
 
-const UpcomingSubscription = ({name , price , daysLeft , icon , currency}: UpcomingSubscription ) => {
+const UpcomingSubscription = ({
+  name,
+  price,
+  daysLeft,
+  icon,
+  currency,
+}: UpcomingSubscriptionCardProps) => {
   return (
     <View className='upcoming-card'>
       <View className='upcoming-row'>
